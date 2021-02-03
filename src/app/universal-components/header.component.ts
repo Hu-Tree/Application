@@ -31,6 +31,12 @@ import { NavigationEnd, Router } from "@angular/router";
              (click)="routeTo('app');">
           <p>Try It Out!</p>
         </div>
+        
+        <div style="width: 1px; height: 76px; float: left; background-color: #a4a4a4; margin: 2px 3px;">
+        </div>
+         <div class="routeOption {{currentRoute === '/smart-launch' ? 'selectedRoute' : 'unselectedRoute'}}"
+             (click)="routeTo('smart-launch');">
+          <p>Login</p>
       </div>
     </div>
   `,
